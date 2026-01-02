@@ -1,0 +1,21 @@
+class Solution {
+private:
+    unordered_map<char, int> symbolValues = {
+        {'I', 1},   {'V', 5},   {'X', 10},   {'L', 50},
+        {'C', 100}, {'D', 500}, {'M', 1000},
+    };
+
+public:
+    int romanToInt(string s) {
+        int res = 0;
+        int n = s.size();
+        for (int i = 0; i < n; ++i) {
+            int val = symbolValues[s[i]];
+            if (i < n - 1 && val < symbolValues[s[i + 1]])
+                res -= val;
+            else
+                res += val;
+        }
+        return res;
+    }
+};
