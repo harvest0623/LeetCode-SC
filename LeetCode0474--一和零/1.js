@@ -15,7 +15,6 @@ var findMaxForm = function(strs, m, n) {
     }
     return dp[length][m][n];
 };
-
 const getZerosOnes = (str) => {
     const zerosOnes = new Array(2).fill(0);
     const length = str.length;
