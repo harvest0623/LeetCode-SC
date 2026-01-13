@@ -2,7 +2,6 @@ func subtreeWithAllDeepest(root *TreeNode) *TreeNode {
     _, lca := dfs(root)
     return lca
 }
-
 func dfs(root *TreeNode) (int, *TreeNode) {
     if root == nil {
         return 0, nil
