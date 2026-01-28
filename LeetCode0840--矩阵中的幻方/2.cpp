@@ -4,7 +4,6 @@ public:
         int rows = grid.size();
         int cols = grid[0].size();
         if (rows < 3 || cols < 3) return 0;
-        
         int count = 0;
         for (int r = 0; r <= rows - 3; ++r) {
             for (int c = 0; c <= cols - 3; ++c) {

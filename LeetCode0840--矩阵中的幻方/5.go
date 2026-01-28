@@ -8,7 +8,6 @@ func numMagicSquaresInside(grid [][]int) int {
     if rows < 3 || cols < 3 {
         return 0
     }
-    
     count := 0
     for r := 0; r <= rows-3; r++ {
         for c := 0; c <= cols-3; c++ {

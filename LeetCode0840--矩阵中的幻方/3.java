@@ -3,7 +3,6 @@ class Solution {
         int rows = grid.length;
         int cols = grid[0].length;
         if (rows < 3 || cols < 3) return 0;
-        
         int count = 0;
         for (int r = 0; r <= rows - 3; r++) {
             for (int c = 0; c <= cols - 3; c++) {

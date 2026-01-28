@@ -2,11 +2,9 @@ impl Solution {
     pub fn num_magic_squares_inside(grid: Vec<Vec<i32>>) -> i32 {
         let rows = grid.len();
         let cols = grid[0].len();
-        
         if rows < 3 || cols < 3 {
             return 0;
         }
-        
         let mut count = 0;
         for r in 0..=rows - 3 {
             for c in 0..=cols - 3 {

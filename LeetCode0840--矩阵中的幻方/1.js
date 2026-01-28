@@ -2,7 +2,6 @@ var numMagicSquaresInside = function(grid) {
     const rows = grid.length;
     const cols = grid[0].length;
     if (rows < 3 || cols < 3) return 0;
-    
     let count = 0;
     for (let r = 0; r <= rows - 3; r++) {
         for (let c = 0; c <= cols - 3; c++) {

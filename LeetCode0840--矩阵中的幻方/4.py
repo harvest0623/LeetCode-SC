@@ -3,7 +3,6 @@ class Solution:
         rows, cols = len(grid), len(grid[0])
         if rows < 3 or cols < 3:
             return 0
-        
         def is_magic(r, c):
             if grid[r+1][c+1] != 5:
                 return False
