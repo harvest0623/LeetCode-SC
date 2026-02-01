@@ -1,0 +1,27 @@
+func maxRunTime(n int, batteries []int) int64 {
+    var sum int64 = 0
+    for _, cap := range batteries {
+        sum += int64(cap)
+    }
+    
+    left, right := int64(0), sum / int64(n)
+    var ans int64 = 0
+    for left <= right {
+        mid := left + (right - left) / 2
+        var total int64 = 0
+        for _, cap := range batteries {
+            if int64(cap) < mid {
+                total += int64(cap)
+            } else {
+                total += mid
+            }
+        }
+        if total >= int64(n) * mid {
+            ans = mid
+            left = mid + 1
+        } else {
+            right = mid - 1
+        }
+    }
+    return ans
+}
