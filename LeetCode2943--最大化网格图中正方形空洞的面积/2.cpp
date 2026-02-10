@@ -13,7 +13,6 @@ class Solution {
         }
         return mx;
     }
-
 public:
     int maximizeSquareHoleArea(int, int, vector<int>& hBars, vector<int>& vBars) {
         int side = min(f(hBars), f(vBars)) + 1;
