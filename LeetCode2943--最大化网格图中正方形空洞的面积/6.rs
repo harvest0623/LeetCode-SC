@@ -1,30 +1,23 @@
-use std::cmp;
-
 impl Solution {
-    pub fn maximize_square_hole_area(n: i32, m: i32, mut h_bars: Vec<i32>, mut v_bars: Vec<i32>) -> i32 {
-        h_bars.sort_unstable();
-        v_bars.sort_unstable();
-        let mut hmax = 1;
-        let mut vmax = 1;
-        let mut hcur = 1;
-        let mut vcur = 1;
-        for i in 1..h_bars.len() {
-            if h_bars[i] == h_bars[i - 1] + 1 {
-                hcur += 1;
-            } else {
-                hcur = 1;
+    pub fn maximize_square_hole_area(n: i32, m: i32, h_bars: Vec<i32>, v_bars: Vec<i32>) -> i32 {
+        let f = |nums: &mut Vec<i32>| -> i32 {
+            let mut ans = 1;
+            let mut cnt = 1;
+            nums.sort();
+            for i in 1..nums.len() {
+                if nums[i] == nums[i - 1] + 1 {
+                    cnt += 1;
+                    ans = ans.max(cnt);
+                } else {
+                    cnt = 1;
+                }
             }
-            hmax = cmp::max(hmax, hcur);
-        }
-        for i in 1..v_bars.len() {
-            if v_bars[i] == v_bars[i - 1] + 1 {
-                vcur += 1;
-            } else {
-                vcur = 1;
-            }
-            vmax = cmp::max(vmax, vcur);
-        }
-        let side = cmp::min(hmax, vmax) + 1;
-        side * side
+            ans + 1
+        };
+
+        let mut h_bars = h_bars;
+        let mut v_bars = v_bars;
+        let x = f(&mut h_bars).min(f(&mut v_bars));
+        x * x
     }
 }
