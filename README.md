@@ -1,4 +1,11 @@
-# 🚀LeetCode-SC (LeetCode Source Code)
+# 🚀LeetCode SC (LeetCode Source Code)
+
+[<img src="https://img.shields.io/badge/C%2B%2B-17%2B-00599C?style=flat-square&logo=cplusplus&logoColor=00599C" alt="C++" />](https://isocpp.org/)
+[<img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+[<img src="https://img.shields.io/badge/Java-17%2B-ED8B00?style=flat-square&logo=openjdk&logoColor=ED8B00" alt="Java" />](https://docs.oracle.com/en/java/)
+[<img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />](https://docs.python.org/3/)
+[<img src="https://img.shields.io/badge/Go-1.20%2B-00ADD8?style=flat-square&logo=go&logoColor=00ADD8" alt="Go" />](https://golang.org/doc/)
+[<img src="https://img.shields.io/badge/Rust-1.60%2B-000000?style=flat-square&logo=rust&logoColor=000000" alt="Rust" />](https://www.rust-lang.org/learn)
 
 **一站式多语言力扣题解仓库**，覆盖算法入门到高频面试真题，以清晰的思路、规范的代码、全面的分析助力算法能力提升。
 
@@ -14,14 +21,14 @@
 
 ## 🛠 覆盖语言
 
-| 编程语言       | 题解数量    | 适用场景         |
-| ---------- | ------- | ------------ |
-| C++        | 🔥 150+ | 高性能算法、面试高频   |
-| Java       | 📌 150+ | 企业级开发、面向对象实现 |
-| Python     | 🚀 150+ | 简洁高效、快速解题    |
-| Go         | ⚡️ 150+ | 并发场景、轻量级实现   |
-| JavaScript | 📱 150+  | 前端算法、面试基础    |
-| Rust       | 🛠 150+  | 内存安全、系统级算法   |
+| 编程语言 | 题解数量 | 适用场景 | 适配力扣版本 |
+|----------|----------|----------|--------------|
+| C++      | 🔥 150+  | 高性能算法、面试高频 | C++17 |
+| Java     | 📌 150+  | 企业级开发、面向对象实现 | Java 17 |
+| Python   | 🚀 150+  | 简洁高效、快速解题 | Python 3.8+ |
+| Go       | ⚡️ 150+  | 并发场景、轻量级实现 | Go 1.20+ |
+| JavaScript | 📱 150+ | 前端算法、面试基础 | ES6+ |
+| Rust     | 🛠 150+   | 内存安全、系统级算法 | Rust 1.60+ |
 
 ## 🗂 目录结构
 
