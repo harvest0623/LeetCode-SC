@@ -1,11 +1,11 @@
 # 🚀LeetCode SC (LeetCode Source Code)
 
-[<img src="https://img.shields.io/badge/C%2B%2B-17%2B-00599C?style=flat-square&logo=cplusplus&logoColor=00599C" alt="C++" />](https://isocpp.org/)
-[<img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
-[<img src="https://img.shields.io/badge/Java-17%2B-ED8B00?style=flat-square&logo=openjdk&logoColor=ED8B00" alt="Java" />](https://docs.oracle.com/en/java/)
-[<img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />](https://docs.python.org/3/)
-[<img src="https://img.shields.io/badge/Go-1.20%2B-00ADD8?style=flat-square&logo=go&logoColor=00ADD8" alt="Go" />](https://golang.org/doc/)
-[<img src="https://img.shields.io/badge/Rust-1.60%2B-000000?style=flat-square&logo=rust&logoColor=000000" alt="Rust" />](https://www.rust-lang.org/learn)
+[<img src="https://img.shields.io/badge/C%2B%2B-17%2B-00599C?logo=cplusplus&logoColor=00599C" alt="C++" />](https://isocpp.org/)
+[<img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript&logoColor=F7DF1E" alt="JavaScript" />](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+[<img src="https://img.shields.io/badge/Java-17%2B-ED8B00?logo=openjdk&logoColor=ED8B00" alt="Java" />](https://docs.oracle.com/en/java/)
+[<img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=3776AB" alt="Python" />](https://docs.python.org/3/)
+[<img src="https://img.shields.io/badge/Go-1.20%2B-00ADD8?logo=go&logoColor=00ADD8" alt="Go" />](https://golang.org/doc/)
+[<img src="https://img.shields.io/badge/Rust-1.60%2B-000000?logo=rust&logoColor=000000" alt="Rust" />](https://www.rust-lang.org/learn)
 
 **一站式多语言力扣题解仓库**，覆盖算法入门到高频面试真题，以清晰的思路、规范的代码、全面的分析助力算法能力提升。
 
@@ -96,12 +96,15 @@ cd LeetCode-SC
 
 本仓库仅作为算法学习交流使用，请勿直接复制代码用于 `LeetCode` 在线提交 —— 算法学习的核心是理解思路，而非机械复用代码。
 
+## 📝 许可证
+本项目采用 MIT 许可证，详见 [LICENSE](https://github.com/harvest0623/LeetCode-SC/blob/main/LICENSE) 文件。
+
 ## 📧 联系我
 
 如有问题或建议，可通过以下方式联系：
 
 -   GitHub Issues: [提交问题](https://github.com//harvest0623/LeetCode-SC/issues)
--   邮箱：3367741939@qq.com  or harvest060523@gmail.com
+-   邮箱：<3367741939@qq.com>  or <harvest060523@gmail.com>
 
 * * *
 
