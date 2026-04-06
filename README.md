@@ -1,4 +1,4 @@
-# 🚀LeetCode SC (LeetCode Source Code)
+# 🚀LeetCode （LeetCode 题解大全 / 刷题日记）
 
 [<img src="https://img.shields.io/badge/C%2B%2B-17%2B-00599C?logo=cplusplus&logoColor=00599C" alt="C++" />](https://isocpp.org/)
 [<img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript&logoColor=F7DF1E" alt="JavaScript" />](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
